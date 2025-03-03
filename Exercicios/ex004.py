@@ -1,0 +1,10 @@
+valor = input('Digite algo: ')
+
+print(type(valor))
+print('espaço', valor.isspace())
+print('upper', valor.isupper())
+print('lower', valor.islower())
+print('numero', valor.isnumeric())
+print('alfa', valor.isalpha())
+print('alfanumerico', valor.isalnum())
+print('Capitalizado', valor.istitle())
